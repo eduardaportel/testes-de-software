@@ -3,7 +3,7 @@ public class TesteSoma {
         CalculaSoma calculadora = new CalculaSoma();
         int resultado = calculadora.soma(3, 4);
         if (resultado == 7){
-            System.out.println("Passou!");
+            System.out.println("Teste Passou!");
         } else {
             System.out.println("Errou, o resultado esperado era 7.");
         }

@@ -5,9 +5,9 @@ public class TesteMultiplicacao {
         int resultado = calculadora.multiplicacao(5, 6);
         
         if (resultado == 11){
-            System.out.println("Passou");
+            System.out.println("Teste passou!");
         } else {
-            System.out.println("Bolete");
+            System.out.println("Teste falhou! O resultado esperado era 11.");
         }
     }
 }
