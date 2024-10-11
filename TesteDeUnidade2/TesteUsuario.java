@@ -1,5 +1,4 @@
 public class TesteUsuario {
-    
     public static void main(String[] args) {
         Usuario usuario = new Usuario();
         if (usuario.validarsenha("Senha123")) {
@@ -7,5 +6,6 @@ public class TesteUsuario {
         } else {
             System.out.println("Teste falhou");
         }
+
     }
 }
