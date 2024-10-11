@@ -8,9 +8,9 @@ public class BirthValidator {
         // for each birthday in birthdays
         for (String birthday : birthdays) {
             if (birthday.matches(birthdayPattern)){
-                System.out.println(birthday + "is in the right form");
+                System.out.println(birthday + " is in the right form");
             } else {
-                System.out.println(birthday + "is not in the right form");
+                System.out.println(birthday + " is not in the right form");
             }
         } 
     }

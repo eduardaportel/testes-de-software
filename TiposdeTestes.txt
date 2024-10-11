@@ -1,0 +1,24 @@
+Tipos de Testes se Software
+
+Testes Funcionais
+    - Avaliam se o sistema está funcionando conforme o esperado;
+    - Exemplos: Testes de Unidade; Testes de Integração; Testes de Sistema; Testes de Aceitação;
+
+Testes Não Funcionais
+    - Avaliam aspectos de desempenho, segurança e usabilidade;
+    - Exemplos: Testes de Desempenho; Testes de Carga; Testes de Estresse; Testes de Segurança; Teste de Usabilidade
+
+Testes de Regressão
+    - Realizados após mudanças no código, para garantir que novas implementações não afetem funcionalidades pré-existentes
+    - Exemplo: Testes Automatizados, repetidos a cada nova versão do software.
+
+Testes de Caixa Branca vs Caixa Preta
+    - Caixa Branca: O testador conhece o código-fonte e verifica a lógica do software
+    - Caixa Preta: Foca no comportamento externo, sem conhecer o código
+
+Testes Alfa e Beta
+    - Alfa: realizado internamente pela equipe de desenvolvimento antes do lançamento
+    - Beta: realizado por usuários finais, em um ambiente real, antes da versão oficial
+
+Testes de Manutenção.
+    - Realizado pós lançamento para garantir que atualizações não introduzam novo erros
